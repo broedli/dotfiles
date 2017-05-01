@@ -2,7 +2,7 @@ if [ -f /etc/bash_completion ]; then
     . /etc/bash_completion
 fi
 
-xhost +local:root > /dev/null 2>&1
+xhost +local:root > /dev/null 2>&1s
 if [ -z "$DISPLAY" -a $XDG_VTNR -eq 1 ]; then
     ssh-agent startx -- -dpi 96
 fi
