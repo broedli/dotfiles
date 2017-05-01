@@ -37,7 +37,7 @@ sudo pacman -Suu'
 
 BROWSER=/usr/bin/xdg-open
 
-
+aaaa
 ESC=$'['
 END_ESC=m
 
